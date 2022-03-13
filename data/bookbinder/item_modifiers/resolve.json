@@ -1,0 +1,19 @@
+{
+  "function": "set_lore",
+  "entity": "this",
+  "lore": [
+    [
+      {
+        "text": "",
+        "bold": false
+      },
+      {
+        "storage": ":",
+        "nbt": "_[-1].pages_rev[-1][]",
+        "interpret": true,
+        "separator": "\n"
+      }
+    ]
+  ],
+  "replace": true
+}
