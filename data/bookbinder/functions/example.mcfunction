@@ -193,6 +193,6 @@ data modify storage : _ append value {title: "", author: ""}
   data modify storage : _[-1].display.Name set value '[{"text": "-", "color": "light_purple", "italic": false}, {"text": "system", "obfuscated": true}, {"text": "- "}, {"text": ".★☆", "color": "yellow"}, {"text": " "}, {"text": "sy", "color": "red"}, {"text": "st", "color": "gold"}, {"text": "em co", "color": "yellow"}, {"text": "nt", "color": "green"}, {"text": "ro", "color": "aqua"}, {"text": "ll", "color": "blue"}, {"text": "er", "color": "light_purple"}, {"text": " "}, {"text": ".★☆", "color": "yellow"}, {"text": " -"}, {"text": "system", "obfuscated": true}, {"text": "-"}]'
   data modify storage : _[-1].author set value "§dadmin§r"
   data modify storage : _[-1].Enchantments append value {id: "minecraft:vanishing_curse", lvl: 1s}
-  data modify storage : _[-1].AttributeModifiers set value [{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:2147483647,Operation:0,UUID:[I;-382461655,887375262,-1649012964,-2101762901],Slot:"mainhand"}]
+  data modify storage : _[-1].AttributeModifiers set value [{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:2e308d,Operation:0,UUID:[I;-382461655,887375262,-1649012964,-2101762901],Slot:"mainhand"}]
   loot give @s loot bookbinder:publish
 data remove storage : _[-1]
